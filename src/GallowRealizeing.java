@@ -7,9 +7,8 @@ import java.util.Scanner;
 public class GallowRealizeing {
 
     static String separator = File.separator;
-    static String path =
-            "C:"+separator+"Users"+separator+"Евгеша"+separator+"IdeaProjects"+separator+"Gallows"+separator+ "Source/WordsStorage.txt";
-    static File file = new File(path);
+
+    static File file = new File("Gallows" +separator+ "Source" +separator+ "WordsStorage.txt");
 
     static ArrayList <String> storageWords = new ArrayList<>();
     static private Random randomNumber = new Random();
@@ -32,7 +31,6 @@ public class GallowRealizeing {
     public static void main(String[] args) throws FileNotFoundException {
         do {
             additionWordsInGame(file);
-            System.out.println(storageWords.size());
             startLoopGame();
         }while(restartGame());
         System.out.println("Игра окончена!");
