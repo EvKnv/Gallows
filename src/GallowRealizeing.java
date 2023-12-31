@@ -58,7 +58,7 @@ public class GallowRealizeing {
                     result = true;
                     break;
                 }
-                System.out.println("Введите один киррилический символ или цифру "3"(Подсказка)");
+                System.out.println("Введите один киррилический символ или цифру 3(Подсказка)");
                 break;
             }
         }while(result == false);
