@@ -28,7 +28,7 @@ public class GallowRealizeing {
 
     private static int helpLetter = 3;
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main (String[] args) throws FileNotFoundException {
         do {
             additionWordsInGame(file);
             startLoopGame();
@@ -266,5 +266,3 @@ public class GallowRealizeing {
         return word.charAt(numberOpenletter);
     }
 }
-
-
