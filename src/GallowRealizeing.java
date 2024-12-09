@@ -8,7 +8,7 @@ public class GallowRealizeing {
 
     static String separator = File.separator;
 
-    static File file = new File("Gallows" +separator+ "Source" +separator+ "WordsStorage.txt");
+    static File file = new File("Source"+separator+"WordsStorage.txt");
 
     static ArrayList <String> storageWords = new ArrayList<>();
     static private Random randomNumber = new Random();
